@@ -1,5 +1,5 @@
-import React from 'react'
-import './Sidebar.css'
+import React from 'react';
+import './Sidebar.css';
 
 const Sidebar = ({ currentCategory, onCategoryChange }) => {
   const categories = [
@@ -13,7 +13,7 @@ const Sidebar = ({ currentCategory, onCategoryChange }) => {
     { id: 'playlist', name: 'Playlists', icon: '📝' },
     { id: 'favorites', name: 'Favorites', icon: '❤️' },
     { id: 'recent', name: 'Recently Played', icon: '⏰' }
-  ]
+  ];
 
   return (
     <aside className="sidebar">
@@ -23,7 +23,7 @@ const Sidebar = ({ currentCategory, onCategoryChange }) => {
             <li key={category.id}>
               <button
                 className={`category-button ${currentCategory === category.id ? 'active' : ''}`}
-                onClick={() => onCategoryChange(category.id)}
+                onClick={() => onCategoryChange({ id: category.id, name: category.name })}
               >
                 <span className="category-icon">{category.icon}</span>
                 <span className="category-name">{category.name}</span>
@@ -33,7 +33,7 @@ const Sidebar = ({ currentCategory, onCategoryChange }) => {
         </ul>
       </nav>
     </aside>
-  )
-}
+  );
+};
 
-export default Sidebar 
+export default Sidebar;

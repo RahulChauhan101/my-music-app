@@ -11,7 +11,7 @@ export const musicData = [
     genre: "Romantic",
     duration: "4:22",
     image: "https://picsum.photos/300/300?random=1",
-    audioSrc: "http://localhost:5000/Songdata/bollywood/tum-hi-ho.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const musicData = [
     genre: "Romantic",
     duration: "3:45",
     image: "https://picsum.photos/300/300?random=2",
-    audioSrc: "http://localhost:5000/Songdata/bollywood/raabta.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const musicData = [
     genre: "Romantic",
     duration: "3:20",
     image: "https://picsum.photos/300/300?random=3",
-    audioSrc: "http://localhost:5000/Songdata/bollywood/chaleya.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const musicData = [
     genre: "Romantic",
     duration: "4:28",
     image: "https://picsum.photos/300/300?random=4",
-    audioSrc: "http://localhost:5000/Songdata/bollywood/kesariya.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ export const musicData = [
     genre: "Action",
     duration: "3:45",
     image: "https://picsum.photos/300/300?random=5",
-    audioSrc: "http://localhost:5000/Songdata/bollywood/pathaan.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   
   // Hollywood Movie Songs
@@ -78,7 +78,7 @@ export const musicData = [
     genre: "Pop",
     duration: "4:40",
     image: "https://picsum.photos/300/300?random=6",
-    audioSrc: "http://localhost:5000/Songdata/hollywood/my-heart-will-go-on.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 7,
@@ -91,7 +91,7 @@ export const musicData = [
     genre: "Pop",
     duration: "4:46",
     image: "https://picsum.photos/300/300?random=7",
-    audioSrc: "http://localhost:5000/Songdata/hollywood/skyfall.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   
   // International Albums
@@ -103,7 +103,7 @@ export const musicData = [
     genre: "Pop",
     duration: "3:53",
     image: "https://picsum.photos/300/300?random=8",
-    audioSrc: "http://localhost:5000/Songdata/international/shape-of-you.mp3"
+    audioSrc: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
   },
   {
     id: 9,
